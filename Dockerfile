@@ -6,5 +6,5 @@ RUN \
     npm i -g @vue/cli && \
     npm i && \
     npm run build
-CMD ["npm", "start"]
-EXPOSE 80
+#CMD ["npm", "start"]
+#EXPOSE 80
