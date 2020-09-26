@@ -1,5 +1,5 @@
 FROM node:alpine
-WORKDIR QQMusicApi
+WORKDIR NeteaseMusic
 RUN \
     apk add --no-cache git && \
     git clone https://github.com/jsososo/NeteaseMusic.git /NeteaseMusic/ && \
